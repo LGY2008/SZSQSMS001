@@ -1,0 +1,11 @@
+#["哈喽","你好","瓦特？"]
+#- "哈喽"
+#- "你好"
+#- "瓦特?"
+#{"test_sms_001":{"input_text":"hello"},"test_sms_002":{"input_text":"哈喽"},"test_sms_003":{"input_text":"哈@#$^&*喽"}}
+test_sms_001:
+  input_text: hello
+test_sms_002:
+  input_text: 哈喽
+test_sms_003:
+  input_text: 哈@#$^&*喽

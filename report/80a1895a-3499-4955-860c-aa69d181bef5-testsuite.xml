@@ -1,0 +1,62 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1534575106082" stop="1534575106248">
+  <name>test_json</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1534575106082" status="passed" stop="1534575106087">
+      <name>Test.test_001</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="39032-MainThread"/>
+        <label name="host" value="2XMQY7MAJVGU2PB"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1534575106086" status="passed" stop="1534575106087">
+          <name>测试test_001方法：</name>
+          <title>测试test_001方法：</title>
+          <attachments>
+            <attachment source="53115317-afd6-4ca6-b546-6084b201a990-attachment.txt" title="test001描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1534575106094" status="failed" stop="1534575106248">
+      <name>Test.test_002</name>
+      <failure>
+        <message>AssertionError: assert 0</message>
+        <stack-trace>self = &lt;test_json.Test object at 0x0000000003B01C18&gt;
+
+    @pytest.allure.severity( pytest.allure.severity_level.CRITICAL)
+    @allure.step(title="测试test_002方法：")
+    def test_002(self):
+        allure.attach("test002描述","执行打印输出语句")
+        print("test001被执行")
+&gt;       assert 0
+E       assert 0
+
+Scripts\test_json.py:19: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="critical"/>
+        <label name="thread" value="39032-MainThread"/>
+        <label name="host" value="2XMQY7MAJVGU2PB"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1534575106096" status="failed" stop="1534575106167">
+          <name>测试test_002方法：</name>
+          <title>测试test_002方法：</title>
+          <attachments>
+            <attachment source="2e831ac1-8172-42c5-bdf8-38976f8c3d68-attachment.txt" title="test002描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

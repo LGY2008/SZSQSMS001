@@ -1,0 +1,100 @@
+{
+  "uid" : "e9b21ebe142b1d87",
+  "name" : "Test.test_002",
+  "fullName" : "test_json.Test.test_002",
+  "historyId" : "ebaf81914a3dbfccb94db7ecbd1d494c",
+  "time" : {
+    "start" : 1534575106094,
+    "stop" : 1534575106248,
+    "duration" : 154
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 0",
+  "statusTrace" : "self = <test_json.Test object at 0x0000000003B01C18>\n\n    @pytest.allure.severity( pytest.allure.severity_level.CRITICAL)\n    @allure.step(title=\"测试test_002方法：\")\n    def test_002(self):\n        allure.attach(\"test002描述\",\"执行打印输出语句\")\n        print(\"test001被执行\")\n>       assert 0\nE       assert 0\n\nScripts\\test_json.py:19: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 0",
+    "statusTrace" : "self = <test_json.Test object at 0x0000000003B01C18>\n\n    @pytest.allure.severity( pytest.allure.severity_level.CRITICAL)\n    @allure.step(title=\"测试test_002方法：\")\n    def test_002(self):\n        allure.attach(\"test002描述\",\"执行打印输出语句\")\n        print(\"test001被执行\")\n>       assert 0\nE       assert 0\n\nScripts\\test_json.py:19: AssertionError",
+    "steps" : [ {
+      "name" : "测试test_002方法：",
+      "time" : {
+        "start" : 1534575106096,
+        "stop" : 1534575106167,
+        "duration" : 71
+      },
+      "status" : "failed",
+      "statusMessage" : "self = <test_json.Test object at 0x0000000003B01C18>\n\n    @pytest.allure.severity( pytest.allure.severity_level.CRITICAL)\n    @allure.step(title=\"测试test_002方法：\")\n    def test_002(self):\n        allure.attach(\"test002描述\",\"执行打印输出语句\")\n        print(\"test001被执行\")\n>       assert 0\nE       assert 0\n\nScripts\\test_json.py:19: AssertionError",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f6a5807f9f375ff0",
+        "name" : "test002描述",
+        "source" : "f6a5807f9f375ff0.txt",
+        "type" : "text/plain",
+        "size" : 24
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "2XMQY7MAJVGU2PB"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "thread",
+    "value" : "39032-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_json"
+  }, {
+    "name" : "testClass",
+    "value" : "test_json"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test.test_002"
+  }, {
+    "name" : "package",
+    "value" : "test_json"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e9b21ebe142b1d87.json",
+  "parameterValues" : [ ]
+}

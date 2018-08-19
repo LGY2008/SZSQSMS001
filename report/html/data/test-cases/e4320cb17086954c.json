@@ -1,0 +1,91 @@
+{
+  "uid" : "e4320cb17086954c",
+  "name" : "Test.test_001",
+  "fullName" : "test_json.Test.test_001",
+  "historyId" : "e001c7274267c5f50ce3843e6291c615",
+  "time" : {
+    "start" : 1534575106082,
+    "stop" : 1534575106087,
+    "duration" : 5
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "测试test_001方法：",
+      "time" : {
+        "start" : 1534575106086,
+        "stop" : 1534575106087,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "894f4da8766042c0",
+        "name" : "test001描述",
+        "source" : "894f4da8766042c0.txt",
+        "type" : "text/plain",
+        "size" : 24
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "2XMQY7MAJVGU2PB"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "39032-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_json"
+  }, {
+    "name" : "testClass",
+    "value" : "test_json"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test.test_001"
+  }, {
+    "name" : "package",
+    "value" : "test_json"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e4320cb17086954c.json",
+  "parameterValues" : [ ]
+}
